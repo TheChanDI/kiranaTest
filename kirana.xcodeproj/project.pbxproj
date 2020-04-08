@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F17CCB4243C4C1B001D9CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17CCB3243C4C1B001D9CBB /* AppDelegate.swift */; };
+		7F17CCB6243C4C1B001D9CBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17CCB5243C4C1B001D9CBB /* SceneDelegate.swift */; };
+		7F17CCB8243C4C1B001D9CBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17CCB7243C4C1B001D9CBB /* ViewController.swift */; };
+		7F17CCBB243C4C1B001D9CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F17CCB9243C4C1B001D9CBB /* Main.storyboard */; };
+		7F17CCBD243C4C1E001D9CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F17CCBC243C4C1E001D9CBB /* Assets.xcassets */; };
+		7F17CCC0243C4C1E001D9CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F17CCBE243C4C1E001D9CBB /* LaunchScreen.storyboard */; };
+		7F17CCCC243C5810001D9CBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17CCCB243C5810001D9CBB /* LoginViewController.swift */; };
+		7F17CCCE243C5839001D9CBB /* RegisterNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17CCCD243C5839001D9CBB /* RegisterNameController.swift */; };
+		7F17CCD3243C5CB2001D9CBB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17CCD2243C5CB2001D9CBB /* GradientView.swift */; };
+		7F17CCD6243C8218001D9CBB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17CCD5243C8218001D9CBB /* Button.swift */; };
+		7F40B181243E1B0C00C99A58 /* RegisterPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B180243E1B0C00C99A58 /* RegisterPasswordController.swift */; };
+		CD8AB13462AA2D527A2B1CFA /* Pods_kirana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03F038041A04242553F57B3 /* Pods_kirana.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7999C84A0F72D422DB4067D5 /* Pods-kirana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kirana.debug.xcconfig"; path = "Target Support Files/Pods-kirana/Pods-kirana.debug.xcconfig"; sourceTree = "<group>"; };
+		7F17CCB0243C4C1B001D9CBB /* kirana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kirana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F17CCB3243C4C1B001D9CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F17CCB5243C4C1B001D9CBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F17CCB7243C4C1B001D9CBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F17CCBA243C4C1B001D9CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F17CCBC243C4C1E001D9CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F17CCBF243C4C1E001D9CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F17CCC1243C4C1E001D9CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F17CCCB243C5810001D9CBB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7F17CCCD243C5839001D9CBB /* RegisterNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameController.swift; sourceTree = "<group>"; };
+		7F17CCD2243C5CB2001D9CBB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		7F17CCD5243C8218001D9CBB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		7F40B180243E1B0C00C99A58 /* RegisterPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPasswordController.swift; sourceTree = "<group>"; };
+		A03F038041A04242553F57B3 /* Pods_kirana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kirana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D827914C5646DB69300044FB /* Pods-kirana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kirana.release.xcconfig"; path = "Target Support Files/Pods-kirana/Pods-kirana.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F17CCAD243C4C1B001D9CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8AB13462AA2D527A2B1CFA /* Pods_kirana.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361FC47C3E7C136748DFAD2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7999C84A0F72D422DB4067D5 /* Pods-kirana.debug.xcconfig */,
+				D827914C5646DB69300044FB /* Pods-kirana.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F17CCA7243C4C1B001D9CBB = {
+			isa = PBXGroup;
+			children = (
+				7F17CCB2243C4C1B001D9CBB /* kirana */,
+				7F17CCB1243C4C1B001D9CBB /* Products */,
+				361FC47C3E7C136748DFAD2E /* Pods */,
+				E671F2BD5C718DED949EFA9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F17CCB1243C4C1B001D9CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCB0243C4C1B001D9CBB /* kirana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F17CCB2243C4C1B001D9CBB /* kirana */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCD4243C8204001D9CBB /* components */,
+				7F17CCCF243C5C7E001D9CBB /* extensions */,
+				7F17CCC1243C4C1E001D9CBB /* Info.plist */,
+				7F17CCCA243C57A1001D9CBB /* application */,
+				7F17CCC7243C4C97001D9CBB /* modules */,
+			);
+			path = kirana;
+			sourceTree = "<group>";
+		};
+		7F17CCC7243C4C97001D9CBB /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCC9243C4CB0001D9CBB /* register */,
+				7F17CCC8243C4CA1001D9CBB /* login */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		7F17CCC8243C4CA1001D9CBB /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCCB243C5810001D9CBB /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		7F17CCC9243C4CB0001D9CBB /* register */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCCD243C5839001D9CBB /* RegisterNameController.swift */,
+				7F40B180243E1B0C00C99A58 /* RegisterPasswordController.swift */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		7F17CCCA243C57A1001D9CBB /* application */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCB3243C4C1B001D9CBB /* AppDelegate.swift */,
+				7F17CCB5243C4C1B001D9CBB /* SceneDelegate.swift */,
+				7F17CCB7243C4C1B001D9CBB /* ViewController.swift */,
+				7F17CCB9243C4C1B001D9CBB /* Main.storyboard */,
+				7F17CCBC243C4C1E001D9CBB /* Assets.xcassets */,
+				7F17CCBE243C4C1E001D9CBB /* LaunchScreen.storyboard */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		7F17CCCF243C5C7E001D9CBB /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCD2243C5CB2001D9CBB /* GradientView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		7F17CCD4243C8204001D9CBB /* components */ = {
+			isa = PBXGroup;
+			children = (
+				7F17CCD5243C8218001D9CBB /* Button.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		E671F2BD5C718DED949EFA9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A03F038041A04242553F57B3 /* Pods_kirana.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F17CCAF243C4C1B001D9CBB /* kirana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F17CCC4243C4C1E001D9CBB /* Build configuration list for PBXNativeTarget "kirana" */;
+			buildPhases = (
+				347878CC3DA977D0D724B672 /* [CP] Check Pods Manifest.lock */,
+				7F17CCAC243C4C1B001D9CBB /* Sources */,
+				7F17CCAD243C4C1B001D9CBB /* Frameworks */,
+				7F17CCAE243C4C1B001D9CBB /* Resources */,
+				FEFCC326D99E2E6A298FD062 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kirana;
+			productName = kirana;
+			productReference = 7F17CCB0243C4C1B001D9CBB /* kirana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F17CCA8243C4C1B001D9CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "ENFINY INNOVATIONS";
+				TargetAttributes = {
+					7F17CCAF243C4C1B001D9CBB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F17CCAB243C4C1B001D9CBB /* Build configuration list for PBXProject "kirana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F17CCA7243C4C1B001D9CBB;
+			productRefGroup = 7F17CCB1243C4C1B001D9CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F17CCAF243C4C1B001D9CBB /* kirana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F17CCAE243C4C1B001D9CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F17CCC0243C4C1E001D9CBB /* LaunchScreen.storyboard in Resources */,
+				7F17CCBD243C4C1E001D9CBB /* Assets.xcassets in Resources */,
+				7F17CCBB243C4C1B001D9CBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347878CC3DA977D0D724B672 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kirana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFCC326D99E2E6A298FD062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kirana/Pods-kirana-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kirana/Pods-kirana-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kirana/Pods-kirana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F17CCAC243C4C1B001D9CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F17CCD6243C8218001D9CBB /* Button.swift in Sources */,
+				7F17CCCE243C5839001D9CBB /* RegisterNameController.swift in Sources */,
+				7F17CCCC243C5810001D9CBB /* LoginViewController.swift in Sources */,
+				7F17CCD3243C5CB2001D9CBB /* GradientView.swift in Sources */,
+				7F17CCB8243C4C1B001D9CBB /* ViewController.swift in Sources */,
+				7F17CCB4243C4C1B001D9CBB /* AppDelegate.swift in Sources */,
+				7F40B181243E1B0C00C99A58 /* RegisterPasswordController.swift in Sources */,
+				7F17CCB6243C4C1B001D9CBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F17CCB9243C4C1B001D9CBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F17CCBA243C4C1B001D9CBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F17CCBE243C4C1E001D9CBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F17CCBF243C4C1E001D9CBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F17CCC2243C4C1E001D9CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F17CCC3243C4C1E001D9CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F17CCC5243C4C1E001D9CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7999C84A0F72D422DB4067D5 /* Pods-kirana.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kirana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandi.kirana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F17CCC6243C4C1E001D9CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D827914C5646DB69300044FB /* Pods-kirana.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kirana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandi.kirana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F17CCAB243C4C1B001D9CBB /* Build configuration list for PBXProject "kirana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F17CCC2243C4C1E001D9CBB /* Debug */,
+				7F17CCC3243C4C1E001D9CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F17CCC4243C4C1E001D9CBB /* Build configuration list for PBXNativeTarget "kirana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F17CCC5243C4C1E001D9CBB /* Debug */,
+				7F17CCC6243C4C1E001D9CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F17CCA8243C4C1B001D9CBB /* Project object */;
+}

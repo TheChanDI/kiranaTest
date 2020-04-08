@@ -1,0 +1,6 @@
+framework module Pods_kirana {
+  umbrella header "Pods-kirana-umbrella.h"
+
+  export *
+  module * { export * }
+}

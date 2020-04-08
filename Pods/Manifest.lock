@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (5.1.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - MaterialComponents/AnimationTiming (107.4.0)
+  - MaterialComponents/Availability (107.4.0)
+  - MaterialComponents/Buttons (107.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (107.4.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (107.4.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (107.4.0)
+  - MaterialComponents/private/Application (107.4.0)
+  - MaterialComponents/private/Color (107.4.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (107.4.0)
+  - MaterialComponents/Ripple (107.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (107.4.0)
+  - MaterialComponents/ShadowLayer (107.4.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (107.4.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (107.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (107.4.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - RAGTextField (0.13.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - MaterialComponents/TextFields
+  - RAGTextField
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - RAGTextField
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  MaterialComponents: 52e2ade4684e3017eff7f62587b37522d217ea50
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  RAGTextField: 96dfbf49ec5f7b29cd16339192ec99f7610dd0ef
+
+PODFILE CHECKSUM: cdb6af76c7042e728c175f2068fbdb17f495edbc
+
+COCOAPODS: 1.8.4
